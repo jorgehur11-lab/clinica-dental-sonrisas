@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" width="900" height="1100">
+  <defs>
+    <linearGradient id="wallGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5F3EF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8E6E0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="floorGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#DDD9D2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C8C4BC;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentWall" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2C4A3E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3a5c4e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="lightGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FAFAF8;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#FAFAF8;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Pared de fondo -->
+  <rect width="900" height="800" fill="url(#wallGrad)"/>
+
+  <!-- Pared de acento verde (panel izquierdo) -->
+  <rect x="0" y="0" width="200" height="800" fill="url(#accentWall)"/>
+
+  <!-- Suelo -->
+  <rect y="800" width="900" height="300" fill="url(#floorGrad)"/>
+
+  <!-- Línea de encuentro suelo/pared -->
+  <line x1="0" y1="800" x2="900" y2="800" stroke="#B8B4AC" stroke-width="1"/>
+
+  <!-- Ventana grande -->
+  <rect x="320" y="60" width="380" height="520" fill="#D8EEF4" opacity="0.6"/>
+  <rect x="320" y="60" width="380" height="520" fill="none" stroke="#C0C0B8" stroke-width="2"/>
+  <!-- Luz de ventana -->
+  <rect x="320" y="60" width="380" height="200" fill="url(#lightGrad)"/>
+  <!-- Marco de ventana -->
+  <line x1="510" y1="60" x2="510" y2="580" stroke="#C0C0B8" stroke-width="1.5"/>
+  <line x1="320" y1="320" x2="700" y2="320" stroke="#C0C0B8" stroke-width="1.5"/>
+
+  <!-- Silla dental estilizada -->
+  <!-- Base -->
+  <rect x="350" y="700" width="200" height="20" fill="#8A8A85" rx="0"/>
+  <!-- Brazo hidráulico -->
+  <rect x="430" y="560" width="16" height="140" fill="#9A9A95"/>
+  <!-- Respaldo del sillón -->
+  <path d="M 300 720 L 300 560 Q 300 540 320 540 L 580 540 Q 600 540 600 560 L 600 720 Z"
+        fill="#E2E0DA" stroke="#C0C0B8" stroke-width="1"/>
+  <!-- Cabecero -->
+  <rect x="310" y="520" width="280" height="50" fill="#D8D6D0" rx="0"/>
+  <!-- Reposabrazos izquierdo -->
+  <rect x="290" y="600" width="30" height="100" fill="#D0CEC8" rx="0"/>
+  <!-- Reposabrazos derecho -->
+  <rect x="580" y="600" width="30" height="100" fill="#D0CEC8" rx="0"/>
+
+  <!-- Lámpara dental -->
+  <line x1="510" y1="100" x2="510" y2="380" stroke="#B0B0A8" stroke-width="3"/>
+  <line x1="510" y1="380" x2="470" y2="440" stroke="#B0B0A8" stroke-width="3"/>
+  <ellipse cx="450" cy="460" rx="55" ry="30" fill="#E8E6E0" stroke="#C0C0B8" stroke-width="1.5"/>
+  <!-- Luz de la lámpara -->
+  <ellipse cx="450" cy="460" rx="40" ry="20" fill="#FAFAF8" opacity="0.8"/>
+
+  <!-- Mesita de instrumental -->
+  <rect x="660" y="640" width="160" height="8" fill="#C8C6C0" rx="0"/>
+  <rect x="700" y="648" width="4" height="152" fill="#B8B6B0"/>
+  <rect x="780" y="648" width="4" height="152" fill="#B8B6B0"/>
+  <!-- Instrumentos abstractos -->
+  <rect x="675" y="620" width="3" height="20" fill="#8A8A85"/>
+  <rect x="690" y="618" width="3" height="22" fill="#8A8A85"/>
+  <rect x="705" y="622" width="3" height="18" fill="#8A8A85"/>
+  <rect x="720" y="616" width="3" height="24" fill="#8A8A85"/>
+
+  <!-- Panel decorativo en pared verde -->
+  <rect x="20" y="100" width="140" height="200" fill="none" stroke="#FAFAF8" stroke-width="0.8" opacity="0.3"/>
+  <rect x="30" y="110" width="120" height="180" fill="none" stroke="#FAFAF8" stroke-width="0.4" opacity="0.2"/>
+
+  <!-- Logo en pared -->
+  <text x="30" y="370" font-family="Georgia, serif" font-size="11" font-weight="300"
+        letter-spacing="3" fill="#FAFAF8" opacity="0.7">SONRISA</text>
+  <text x="30" y="390" font-family="Georgia, serif" font-size="11" font-weight="300"
+        letter-spacing="3" fill="#FAFAF8" opacity="0.7">PERFECTA</text>
+  <line x1="30" y1="400" x2="170" y2="400" stroke="#FAFAF8" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Planta decorativa -->
+  <rect x="770" y="740" width="12" height="60" fill="#5A7A6A" opacity="0.7"/>
+  <ellipse cx="776" cy="730" rx="35" ry="45" fill="#3A6050" opacity="0.6"/>
+  <ellipse cx="752" cy="750" rx="22" ry="32" fill="#2C4A3E" opacity="0.7"/>
+  <ellipse cx="800" cy="745" rx="25" ry="35" fill="#4A6A5A" opacity="0.6"/>
+
+  <!-- Sombra suelo silla -->
+  <ellipse cx="450" cy="820" rx="140" ry="18" fill="#B0ADA6" opacity="0.3"/>
+
+  <!-- Patrón sutil suelo -->
+  <line x1="0" y1="870" x2="900" y2="870" stroke="#B8B4AC" stroke-width="0.5" opacity="0.4"/>
+  <line x1="0" y1="940" x2="900" y2="940" stroke="#B8B4AC" stroke-width="0.5" opacity="0.4"/>
+  <line x1="0" y1="1010" x2="900" y2="1010" stroke="#B8B4AC" stroke-width="0.5" opacity="0.4"/>
+  <line x1="150" y1="800" x2="150" y2="1100" stroke="#B8B4AC" stroke-width="0.5" opacity="0.3"/>
+  <line x1="300" y1="800" x2="300" y2="1100" stroke="#B8B4AC" stroke-width="0.5" opacity="0.3"/>
+  <line x1="450" y1="800" x2="450" y2="1100" stroke="#B8B4AC" stroke-width="0.5" opacity="0.3"/>
+  <line x1="600" y1="800" x2="600" y2="1100" stroke="#B8B4AC" stroke-width="0.5" opacity="0.3"/>
+  <line x1="750" y1="800" x2="750" y2="1100" stroke="#B8B4AC" stroke-width="0.5" opacity="0.3"/>
+</svg>

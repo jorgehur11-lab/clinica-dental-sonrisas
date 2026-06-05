@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600" width="480" height="600">
+  <defs>
+    <linearGradient id="bgT2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5F0E8"/>
+      <stop offset="100%" style="stop-color:#EAE4D8"/>
+    </linearGradient>
+    <linearGradient id="skinT2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#B8805A"/>
+      <stop offset="100%" style="stop-color:#986040"/>
+    </linearGradient>
+    <linearGradient id="coatT2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FAFAF8"/>
+      <stop offset="100%" style="stop-color:#ECEAE6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="480" height="600" fill="url(#bgT2)"/>
+  <pattern id="lines2" width="20" height="20" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="20" x2="20" y2="0" stroke="#2C4A3E" stroke-width="0.4" opacity="0.07"/>
+  </pattern>
+  <rect width="480" height="600" fill="url(#lines2)"/>
+  <rect x="474" y="0" width="6" height="600" fill="#2C4A3E" opacity="0.6"/>
+
+  <!-- Bata -->
+  <path d="M 70 600 L 70 450 Q 70 390 110 370 L 200 340 L 280 340 L 370 370 Q 410 390 410 450 L 410 600 Z"
+        fill="url(#coatT2)"/>
+  <path d="M 200 340 L 240 370 L 280 340" fill="none" stroke="#DDDBD7" stroke-width="1.5"/>
+
+  <!-- Camisa debajo -->
+  <path d="M 200 340 L 240 310 L 280 340 Z" fill="#3A5C50" opacity="0.8"/>
+
+  <!-- Cuello -->
+  <rect x="212" y="280" width="56" height="62" rx="0" fill="url(#skinT2)"/>
+
+  <!-- Cabeza (forma más masculina, cuadrada) -->
+  <path d="M 140 175 Q 138 100 185 80 Q 240 65 295 80 Q 342 100 340 175 L 340 240 Q 340 310 240 315 Q 140 310 140 240 Z"
+        fill="url(#skinT2)"/>
+
+  <!-- Cabello corto oscuro -->
+  <path d="M 140 175 Q 138 110 185 90 Q 240 72 295 90 Q 342 110 340 175 L 340 158 Q 335 100 295 82 Q 240 68 185 82 Q 145 100 140 158 Z"
+        fill="#1A120A"/>
+  <!-- Detalle cabello lateral izquierdo -->
+  <path d="M 140 175 Q 132 195 136 215" fill="#1A120A" stroke="#1A120A" stroke-width="8" stroke-linecap="round"/>
+  <!-- Detalle cabello lateral derecho -->
+  <path d="M 340 175 Q 348 195 344 215" fill="#1A120A" stroke="#1A120A" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Sombra facial (barba leve) -->
+  <ellipse cx="240" cy="290" rx="70" ry="30" fill="#7A5030" opacity="0.12"/>
+
+  <!-- Ojos -->
+  <circle cx="200" cy="205" r="16" fill="#1A1008"/>
+  <circle cx="280" cy="205" r="16" fill="#1A1008"/>
+  <circle cx="200" cy="205" r="9" fill="#3A2010"/>
+  <circle cx="280" cy="205" r="9" fill="#3A2010"/>
+  <circle cx="204" cy="201" r="3" fill="#FAFAF8"/>
+  <circle cx="284" cy="201" r="3" fill="#FAFAF8"/>
+  <!-- Cejas masculinas más gruesas -->
+  <path d="M 182 188 Q 200 182 218 186" fill="none" stroke="#1A120A" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M 262 186 Q 280 182 298 188" fill="none" stroke="#1A120A" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- Nariz -->
+  <path d="M 232 218 L 225 248 Q 232 255 240 253 Q 248 255 255 248 L 248 218"
+        fill="none" stroke="#906040" stroke-width="1.5" opacity="0.5"/>
+  <ellipse cx="226" cy="249" rx="10" ry="7" fill="#906040" opacity="0.2"/>
+  <ellipse cx="254" cy="249" rx="10" ry="7" fill="#906040" opacity="0.2"/>
+
+  <!-- Sonrisa con dientes visibles -->
+  <path d="M 205 272 Q 240 295 275 272" fill="none" stroke="#7A4030" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 205 272 Q 215 268 240 270 Q 265 268 275 272 Q 268 285 240 287 Q 212 285 205 272 Z"
+        fill="#C06850" opacity="0.6"/>
+  <rect x="219" y="272" width="42" height="8" fill="#FAFAF8" opacity="0.85" rx="0"/>
+
+  <!-- Orejas -->
+  <ellipse cx="138" cy="225" rx="15" ry="20" fill="url(#skinT2)"/>
+  <ellipse cx="342" cy="225" rx="15" ry="20" fill="url(#skinT2)"/>
+
+  <!-- Cuello de camisa / corbata dental -->
+  <rect x="228" y="340" width="24" height="60" fill="#2C4A3E" opacity="0.7"/>
+
+  <!-- Bolsillo de bata con logo -->
+  <rect x="290" y="390" width="70" height="50" fill="none" stroke="#DDDBD7" stroke-width="1"/>
+  <text x="305" y="413" font-family="Georgia, serif" font-size="8" fill="#8A8A85" opacity="0.6">SP</text>
+
+  <!-- Línea y texto -->
+  <line x1="40" y1="555" x2="440" y2="555" stroke="#2C4A3E" stroke-width="0.5" opacity="0.4"/>
+  <text x="240" y="577" font-family="Georgia, serif" font-size="15" font-weight="400"
+        letter-spacing="2" fill="#2C4A3E" text-anchor="middle" opacity="0.9">Dr. Sebastián Morales</text>
+  <text x="240" y="595" font-family="Arial, sans-serif" font-size="9" font-weight="300"
+        letter-spacing="3" fill="#8A8A85" text-anchor="middle" opacity="0.8">ORTODONCISTA</text>
+</svg>

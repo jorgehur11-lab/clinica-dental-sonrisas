@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 960" width="800" height="960">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2C4A3E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2e25;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="circleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F0ED;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#E8F0ED;stop-opacity:0.03" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FAFAF8" stroke-width="0.3" opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <!-- Fondo -->
+  <rect width="800" height="960" fill="url(#bgGrad)"/>
+  <rect width="800" height="960" fill="url(#grid)"/>
+
+  <!-- Círculo grande decorativo -->
+  <circle cx="600" cy="320" r="380" fill="url(#circleGrad)" />
+  <circle cx="600" cy="320" r="380" fill="none" stroke="#FAFAF8" stroke-width="0.5" opacity="0.12"/>
+
+  <!-- Círculo medio -->
+  <circle cx="600" cy="320" r="260" fill="none" stroke="#FAFAF8" stroke-width="0.5" opacity="0.1"/>
+
+  <!-- Círculo pequeño -->
+  <circle cx="600" cy="320" r="140" fill="#FAFAF8" opacity="0.04"/>
+
+  <!-- Líneas de composición -->
+  <line x1="0" y1="480" x2="800" y2="480" stroke="#FAFAF8" stroke-width="0.5" opacity="0.1"/>
+  <line x1="200" y1="0" x2="200" y2="960" stroke="#FAFAF8" stroke-width="0.5" opacity="0.08"/>
+
+  <!-- Elemento dental: forma de diente estilizada -->
+  <g transform="translate(520, 260)">
+    <!-- Diente abstracto -->
+    <path d="M0,-80 C-20,-80 -35,-60 -35,-30 C-35,0 -25,30 -20,60 C-15,85 -10,95 0,95 C10,95 15,85 20,60 C25,30 35,0 35,-30 C35,-60 20,-80 0,-80 Z"
+          fill="none" stroke="#FAFAF8" stroke-width="1" opacity="0.35"/>
+    <!-- Raíces -->
+    <line x1="-12" y1="95" x2="-18" y2="145" stroke="#FAFAF8" stroke-width="0.8" opacity="0.25"/>
+    <line x1="12" y1="95" x2="18" y2="145" stroke="#FAFAF8" stroke-width="0.8" opacity="0.25"/>
+  </g>
+
+  <!-- Sonrisa abstracta -->
+  <path d="M 340 500 Q 440 560 540 500" fill="none" stroke="#E8F0ED" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Cruz médica minimalista -->
+  <g transform="translate(160, 200)" opacity="0.2">
+    <rect x="-3" y="-18" width="6" height="36" fill="#FAFAF8" rx="0"/>
+    <rect x="-18" y="-3" width="36" height="6" fill="#FAFAF8" rx="0"/>
+  </g>
+
+  <!-- Puntos de acento -->
+  <circle cx="120" cy="700" r="3" fill="#E8F0ED" opacity="0.4"/>
+  <circle cx="680" cy="780" r="4" fill="#E8F0ED" opacity="0.3"/>
+  <circle cx="400" cy="860" r="2" fill="#E8F0ED" opacity="0.35"/>
+
+  <!-- Texto de la clínica -->
+  <text x="60" y="860" font-family="Georgia, serif" font-size="13" font-weight="300"
+        letter-spacing="4" fill="#FAFAF8" opacity="0.45">SONRISA PERFECTA</text>
+  <text x="60" y="880" font-family="Georgia, serif" font-size="10" font-weight="300"
+        letter-spacing="3" fill="#FAFAF8" opacity="0.3">LA PAZ · BOLIVIA</text>
+
+  <!-- Línea decorativa inferior -->
+  <line x1="60" y1="900" x2="300" y2="900" stroke="#FAFAF8" stroke-width="0.5" opacity="0.25"/>
+</svg>

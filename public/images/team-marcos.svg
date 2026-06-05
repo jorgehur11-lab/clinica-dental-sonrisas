@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600" width="480" height="600">
+  <defs>
+    <linearGradient id="bgT4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F0EDE6"/>
+      <stop offset="100%" style="stop-color:#E4E0D8"/>
+    </linearGradient>
+    <linearGradient id="skinT4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#AA7850"/>
+      <stop offset="100%" style="stop-color:#8A5830"/>
+    </linearGradient>
+    <linearGradient id="coatT4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FAFAF8"/>
+      <stop offset="100%" style="stop-color:#ECEAE6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="480" height="600" fill="url(#bgT4)"/>
+  <pattern id="grid4" width="32" height="32" patternUnits="userSpaceOnUse">
+    <rect x="0" y="0" width="32" height="32" fill="none" stroke="#2C4A3E" stroke-width="0.3" opacity="0.07"/>
+  </pattern>
+  <rect width="480" height="600" fill="url(#grid4)"/>
+
+  <!-- Barra derecha -->
+  <rect x="474" y="0" width="6" height="600" fill="#2C4A3E" opacity="0.6"/>
+  <rect x="0" y="0" width="6" height="600" fill="#2C4A3E" opacity="0.6"/>
+
+  <!-- Bata -->
+  <path d="M 65 600 L 65 450 Q 65 388 108 368 L 198 338 L 282 338 L 372 368 Q 415 388 415 450 L 415 600 Z"
+        fill="url(#coatT4)"/>
+  <path d="M 198 338 L 240 368 L 282 338" fill="none" stroke="#DDDBD7" stroke-width="1.5"/>
+
+  <!-- Camisa oscura debajo -->
+  <path d="M 200 338 L 240 308 L 280 338 L 280 358 L 200 358 Z" fill="#1A2820" opacity="0.85"/>
+
+  <!-- Cuello -->
+  <rect x="215" y="278" width="50" height="62" rx="0" fill="url(#skinT4)"/>
+
+  <!-- Cabeza masculina madura -->
+  <path d="M 142 178 Q 140 105 190 82 Q 240 65 290 82 Q 340 105 338 178 L 338 245 Q 338 315 240 320 Q 142 315 142 245 Z"
+        fill="url(#skinT4)"/>
+
+  <!-- Cabello corto con entradas (más maduro) -->
+  <path d="M 142 178 Q 140 118 190 90 Q 240 72 290 90 Q 340 118 338 178 L 338 155 Q 335 100 295 80 Q 240 65 185 80 Q 145 100 142 155 Z"
+        fill="#280E06"/>
+  <!-- Entradas en las sienes -->
+  <path d="M 142 155 Q 148 140 162 135 L 162 165 Q 150 163 142 155 Z" fill="url(#skinT4)"/>
+  <path d="M 338 155 Q 332 140 318 135 L 318 165 Q 330 163 338 155 Z" fill="url(#skinT4)"/>
+
+  <!-- Barba corta (endodoncista serio) -->
+  <path d="M 175 275 Q 180 310 190 320 Q 215 328 240 328 Q 265 328 290 320 Q 300 310 305 275"
+        fill="#280E06" opacity="0.35"/>
+  <!-- Bigote -->
+  <path d="M 210 258 Q 240 252 270 258" fill="#280E06" opacity="0.3" stroke="#280E06" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Ojos más pequeños, serios -->
+  <ellipse cx="202" cy="208" rx="15" ry="9" fill="#0A0806"/>
+  <ellipse cx="278" cy="208" rx="15" ry="9" fill="#0A0806"/>
+  <circle cx="202" cy="208" r="8" fill="#2A1508"/>
+  <circle cx="278" cy="208" r="8" fill="#2A1508"/>
+  <circle cx="206" cy="204" r="2.8" fill="#FAFAF8"/>
+  <circle cx="282" cy="204" r="2.8" fill="#FAFAF8"/>
+  <!-- Cejas rectas masculinas -->
+  <line x1="184" y1="192" x2="220" y2="192" stroke="#280E06" stroke-width="3.5" stroke-linecap="square"/>
+  <line x1="260" y1="192" x2="296" y2="192" stroke="#280E06" stroke-width="3.5" stroke-linecap="square"/>
+
+  <!-- Nariz prominente -->
+  <path d="M 231 215 L 222 248 Q 220 256 227 260 Q 235 264 240 262 Q 245 264 253 260 Q 260 256 258 248 L 249 215"
+        fill="none" stroke="#7A4828" stroke-width="1.5" opacity="0.5"/>
+  <ellipse cx="226" cy="253" rx="11" ry="8" fill="#7A4828" opacity="0.18"/>
+  <ellipse cx="254" cy="253" rx="11" ry="8" fill="#7A4828" opacity="0.18"/>
+
+  <!-- Sonrisa contenida, profesional -->
+  <path d="M 210 272 Q 240 290 270 272" fill="none" stroke="#6A3828" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M 210 270 Q 225 266 240 268 Q 255 266 270 270 Q 264 280 240 283 Q 216 280 210 270 Z"
+        fill="#B05848" opacity="0.55"/>
+  <rect x="221" y="270" width="38" height="7" fill="#FAFAF8" opacity="0.8" rx="0"/>
+
+  <!-- Orejas -->
+  <ellipse cx="140" cy="225" rx="14" ry="19" fill="url(#skinT4)"/>
+  <ellipse cx="340" cy="225" rx="14" ry="19" fill="url(#skinT4)"/>
+
+  <!-- Microscopio dental (referencia a su especialidad) -->
+  <g transform="translate(340, 400)" opacity="0.35">
+    <rect x="-6" y="-60" width="12" height="80" fill="#8A8A85"/>
+    <rect x="-20" y="-60" width="40" height="10" fill="#8A8A85"/>
+    <circle cx="0" cy="-60" r="16" fill="none" stroke="#8A8A85" stroke-width="2"/>
+  </g>
+
+  <!-- Bolsillo con herramientas -->
+  <rect x="110" y="400" width="65" height="48" fill="none" stroke="#DDDBD7" stroke-width="1"/>
+  <rect x="122" y="385" width="4" height="25" fill="#8A8A85"/>
+  <rect x="133" y="382" width="4" height="28" fill="#8A8A85"/>
+  <rect x="144" y="388" width="4" height="22" fill="#8A8A85"/>
+  <rect x="155" y="384" width="4" height="26" fill="#8A8A85"/>
+
+  <!-- Línea y texto -->
+  <line x1="40" y1="555" x2="440" y2="555" stroke="#2C4A3E" stroke-width="0.5" opacity="0.4"/>
+  <text x="240" y="577" font-family="Georgia, serif" font-size="15" font-weight="400"
+        letter-spacing="2" fill="#2C4A3E" text-anchor="middle" opacity="0.9">Dr. Marcos Torrez</text>
+  <text x="240" y="595" font-family="Arial, sans-serif" font-size="9" font-weight="300"
+        letter-spacing="3" fill="#8A8A85" text-anchor="middle" opacity="0.8">ENDODONCISTA</text>
+</svg>

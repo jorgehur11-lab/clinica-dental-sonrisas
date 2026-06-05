@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600" width="480" height="600">
+  <defs>
+    <linearGradient id="bgT3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EDF2EE"/>
+      <stop offset="100%" style="stop-color:#D8E6DC"/>
+    </linearGradient>
+    <linearGradient id="skinT3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#C09070"/>
+      <stop offset="100%" style="stop-color:#A07050"/>
+    </linearGradient>
+    <linearGradient id="coatT3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FAFAF8"/>
+      <stop offset="100%" style="stop-color:#ECEAE6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="480" height="600" fill="url(#bgT3)"/>
+  <pattern id="dots3" width="30" height="30" patternUnits="userSpaceOnUse">
+    <circle cx="15" cy="15" r="1.2" fill="#2C4A3E" opacity="0.07"/>
+  </pattern>
+  <rect width="480" height="600" fill="url(#dots3)"/>
+
+  <!-- Barra superior de acento -->
+  <rect x="0" y="0" width="480" height="6" fill="#2C4A3E" opacity="0.7"/>
+
+  <!-- Bata -->
+  <path d="M 80 600 L 80 445 Q 80 385 118 365 L 200 335 L 280 335 L 362 365 Q 400 385 400 445 L 400 600 Z"
+        fill="url(#coatT3)"/>
+  <!-- Detalle verde en bata -->
+  <path d="M 200 335 L 240 365 L 280 335" fill="none" stroke="#DDDBD7" stroke-width="1.5"/>
+
+  <!-- Jersey verde debajo -->
+  <path d="M 198 335 L 240 308 L 282 335 L 282 355 L 198 355 Z" fill="#2C4A3E" opacity="0.75"/>
+
+  <!-- Cuello -->
+  <rect x="215" y="278" width="50" height="58" rx="0" fill="url(#skinT3)"/>
+
+  <!-- Cabeza más redondeada (joven) -->
+  <ellipse cx="240" cy="205" rx="95" ry="110" fill="url(#skinT3)"/>
+
+  <!-- Cabello negro ondulado suelto -->
+  <ellipse cx="240" cy="135" rx="100" ry="72" fill="#1A0D06"/>
+  <path d="M 145 205 Q 132 165 148 128 Q 165 95 210 83 L 240 78 L 270 83 Q 315 95 332 128 Q 348 165 335 205"
+        fill="#1A0D06"/>
+  <!-- Ondas del cabello -->
+  <path d="M 145 205 Q 128 250 140 290 Q 148 315 162 325" fill="#1A0D06" stroke="#1A0D06" stroke-width="12" stroke-linecap="round"/>
+  <path d="M 335 205 Q 352 250 340 290 Q 332 315 318 325" fill="#1A0D06" stroke="#1A0D06" stroke-width="12" stroke-linecap="round"/>
+  <!-- Detalle ondulado -->
+  <path d="M 148 260 Q 140 275 148 288" fill="none" stroke="#0A0604" stroke-width="4" opacity="0.5"/>
+  <path d="M 332 260 Q 340 275 332 288" fill="none" stroke="#0A0604" stroke-width="4" opacity="0.5"/>
+
+  <!-- Ojos expresivos -->
+  <ellipse cx="203" cy="208" rx="17" ry="11" fill="#0A0806"/>
+  <ellipse cx="277" cy="208" rx="17" ry="11" fill="#0A0806"/>
+  <circle cx="203" cy="208" r="9" fill="#3A2215"/>
+  <circle cx="277" cy="208" r="9" fill="#3A2215"/>
+  <circle cx="207" cy="204" r="3.5" fill="#FAFAF8"/>
+  <circle cx="281" cy="204" r="3.5" fill="#FAFAF8"/>
+  <!-- Cejas arqueadas -->
+  <path d="M 185 193 Q 203 186 221 190" fill="none" stroke="#1A0D06" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 259 190 Q 277 186 295 193" fill="none" stroke="#1A0D06" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Pestañas -->
+  <path d="M 187 201 Q 203 195 219 201" fill="none" stroke="#0A0806" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 261 201 Q 277 195 293 201" fill="none" stroke="#0A0806" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Nariz pequeña -->
+  <path d="M 233 218 Q 228 238 222 244 Q 232 249 240 247 Q 248 249 258 244 Q 252 238 247 218"
+        fill="none" stroke="#906040" stroke-width="1" opacity="0.5"/>
+
+  <!-- Sonrisa amplia y amable -->
+  <path d="M 205 270 Q 240 298 275 270" fill="none" stroke="#804030" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 205 268 Q 222 264 240 266 Q 258 264 275 268 Q 268 284 240 288 Q 212 284 205 268 Z"
+        fill="#C86858" opacity="0.65"/>
+  <rect x="217" y="268" width="46" height="10" fill="#FAFAF8" opacity="0.9" rx="0"/>
+
+  <!-- Mejillas con color -->
+  <circle cx="182" cy="252" r="28" fill="#D0706A" opacity="0.18"/>
+  <circle cx="298" cy="252" r="28" fill="#D0706A" opacity="0.18"/>
+
+  <!-- Orejas -->
+  <ellipse cx="143" cy="218" rx="13" ry="17" fill="url(#skinT3)"/>
+  <ellipse cx="337" cy="218" rx="13" ry="17" fill="url(#skinT3)"/>
+  <!-- Aretes pequeños -->
+  <circle cx="143" cy="230" r="5" fill="#2C4A3E" opacity="0.7"/>
+  <circle cx="337" cy="230" r="5" fill="#2C4A3E" opacity="0.7"/>
+
+  <!-- Estetoscopio pediátrico (más colorido, pequeño) -->
+  <path d="M 168 395 Q 155 430 175 450 Q 195 465 240 460 Q 285 465 305 450 Q 325 430 312 395"
+        fill="none" stroke="#2C4A3E" stroke-width="2" opacity="0.6"/>
+  <circle cx="240" cy="460" r="11" fill="none" stroke="#2C4A3E" stroke-width="2" opacity="0.6"/>
+  <circle cx="240" cy="460" r="5" fill="#2C4A3E" opacity="0.4"/>
+
+  <!-- Línea y texto -->
+  <line x1="40" y1="555" x2="440" y2="555" stroke="#2C4A3E" stroke-width="0.5" opacity="0.4"/>
+  <text x="240" y="577" font-family="Georgia, serif" font-size="15" font-weight="400"
+        letter-spacing="2" fill="#2C4A3E" text-anchor="middle" opacity="0.9">Dra. Camila Quispe</text>
+  <text x="240" y="595" font-family="Arial, sans-serif" font-size="9" font-weight="300"
+        letter-spacing="3" fill="#8A8A85" text-anchor="middle" opacity="0.8">ODONTOPEDIATRA</text>
+</svg>
