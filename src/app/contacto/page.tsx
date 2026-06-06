@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import ChatbotWidget from "@/components/ChatbotWidget";
+
 import { CONTACT, COPY, SERVICES } from "@/lib/constants";
 
 export default function ContactoPage() {
@@ -136,7 +136,7 @@ export default function ContactoPage() {
             <div className="w-full h-48 bg-dental-accent-light border border-dental-border flex items-center justify-center">
               <div className="text-center">
                 <p className="text-xs tracking-[0.2em] uppercase text-dental-muted mb-2">
-                  Av. Arce 2678 · La Paz
+                  Equipetrol Norte · Santa Cruz
                 </p>
                 <a
                   href={CONTACT.maps}
@@ -150,19 +150,28 @@ export default function ContactoPage() {
             </div>
           </motion.div>
 
-          {/* Chatbot */}
+          {/* Contacto directo */}
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.7, delay: 0.3 }}
+            className="space-y-6"
           >
-            <div className="mb-6">
+            <div className="p-8 border border-dental-border">
               <p className="font-display text-2xl font-light mb-2">{COPY.contactChatLabel}</p>
-              <p className="text-sm text-dental-muted font-light">{COPY.contactChatDesc}</p>
+              <p className="text-sm text-dental-muted font-light mb-6">{COPY.contactChatDesc}</p>
+              <div className="flex items-center gap-3">
+                <div className="w-2 h-2 rounded-full bg-dental-accent animate-pulse" />
+                <span className="text-xs tracking-[0.2em] uppercase text-dental-accent">
+                  {COPY.chatbotBadge}
+                </span>
+              </div>
+              <p className="text-xs text-dental-muted font-light mt-4">
+                Haz clic en el botón verde en la esquina inferior derecha para chatear con Sara.
+              </p>
             </div>
-            <ChatbotWidget />
 
-            <div className="mt-8 p-6 border border-dental-border">
+            <div className="p-6 border border-dental-border">
               <p className="text-xs tracking-[0.25em] uppercase text-dental-muted mb-3">
                 También puedes escribirnos directamente
               </p>

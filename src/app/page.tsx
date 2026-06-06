@@ -8,7 +8,7 @@ import { CLINIC_IMAGES } from "@/lib/images";
 import ServiceCard from "@/components/ServiceCard";
 import TeamCard from "@/components/TeamCard";
 import TestimonialCarousel from "@/components/TestimonialCarousel";
-import ChatbotWidget from "@/components/ChatbotWidget";
+
 
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
@@ -328,50 +328,6 @@ export default function Home() {
               />
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* ── CHATBOT ── */}
-      <section className="px-6 md:px-12 py-24 border-t border-dental-border">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-          <motion.div
-            initial={{ opacity: 0, x: -24 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.7 }}
-          >
-            <span className="text-xs tracking-[0.3em] uppercase text-dental-muted block mb-6">
-              {COPY.chatbotLabel}
-            </span>
-            <h2 className="font-display text-4xl md:text-5xl font-light leading-tight mb-6">
-              {COPY.chatbotHeadline}
-            </h2>
-            <p className="text-sm font-light text-dental-muted leading-relaxed mb-8 max-w-sm">
-              {COPY.chatbotDesc}
-            </p>
-            <div className="space-y-4">
-              <div className="flex items-center gap-3">
-                <div className="w-2 h-2 rounded-full bg-dental-accent animate-pulse" />
-                <span className="text-xs tracking-[0.2em] uppercase text-dental-accent">
-                  {COPY.chatbotBadge}
-                </span>
-              </div>
-              <div className="border-t border-dental-border pt-4 space-y-2 text-sm font-light text-dental-muted">
-                <p>Teléfono: {CONTACT.phone}</p>
-                <p>WhatsApp: {CONTACT.whatsapp}</p>
-                <p>Email: {CONTACT.email}</p>
-              </div>
-            </div>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, x: 24 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.7 }}
-          >
-            <ChatbotWidget />
-          </motion.div>
         </div>
       </section>
 
