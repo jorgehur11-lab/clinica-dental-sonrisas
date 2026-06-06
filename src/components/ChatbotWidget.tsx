@@ -43,8 +43,8 @@ function deepFindString(obj: unknown): string {
 }
 
 function parseN8nResponse(data: unknown): string {
-  console.log("[Sara n8n raw response]", JSON.stringify(data, null, 2));
-  return deepFindString(data);
+  const raw = deepFindString(data);
+  return raw.replace(/<CITA_CONFIRMADA>[\s\S]*?<\/CITA_CONFIRMADA>/gi, "").trim();
 }
 
 export default function ChatbotWidget() {
