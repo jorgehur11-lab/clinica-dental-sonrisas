@@ -13,7 +13,7 @@ export default function Footer() {
           <p className="text-xs mt-1">{CONTACT.hoursSat}</p>
         </div>
         <div className="text-center md:text-right">
-          <p>{CONTACT.phone}</p>
+          <p>{CONTACT.email}</p>
           <p className="text-xs mt-1">{CONTACT.city}</p>
         </div>
       </div>

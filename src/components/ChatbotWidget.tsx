@@ -60,6 +60,12 @@ export default function ChatbotWidget() {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages, loading]);
 
+  useEffect(() => {
+    const handler = () => setIsOpen(true);
+    window.addEventListener("sara:open", handler);
+    return () => window.removeEventListener("sara:open", handler);
+  }, []);
+
   const sendMessage = async () => {
     if (!input.trim() || loading) return;
     const userMessage: Message = { role: "user", content: input.trim() };

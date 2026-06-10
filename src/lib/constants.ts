@@ -17,7 +17,7 @@ export const CONTACT = {
   ],
   hoursShort: "Lun – Vie · 8:00 – 17:00",
   hoursSat: "Sábado · 9:00 – 13:00",
-  emergency: "Emergencias: llama al 67359725 cualquier hora",
+  emergency: "Emergencias: escríbele a Sara por el chat. Disponible las 24 horas.",
 };
 
 export const SERVICES = [
@@ -106,13 +106,13 @@ export const SERVICES = [
     name: "Emergencias Dentales",
     tagline: "Cuando el dolor no puede esperar.",
     description:
-      "El dolor dental agudo, las fracturas, los abscesos y los traumatismos requieren atención inmediata. Reservamos turnos de emergencia todos los días para atenderte el mismo día que llamas. Fuera del horario de atención, nuestro equipo responde por WhatsApp para orientarte y coordinar una cita urgente.",
+      "El dolor dental agudo, las fracturas, los abscesos y los traumatismos requieren atención inmediata. Reservamos turnos de emergencia todos los días para atenderte el mismo día. Fuera del horario de atención, Sara, nuestra asistente virtual, está disponible las 24 horas para orientarte y coordinar tu cita urgente.",
     details: [
       "Turnos de emergencia disponibles mismo día",
       "Atención de dolor agudo y abscesos",
       "Tratamiento de fracturas y traumatismos",
       "Recementado de coronas y puentes",
-      "Orientación por WhatsApp fuera de horario",
+      "Orientación por chat con Sara, disponible 24/7",
     ],
     duration: "Según el caso",
     frequency: "Cuando lo necesites",
@@ -157,7 +157,7 @@ export const TESTIMONIALS = [
   },
   {
     quote:
-      "Tenía un dolor insoportable un sábado por la noche. Les escribí por WhatsApp y al día siguiente me atendieron a primera hora. Salvadores.",
+      "Tenía un dolor insoportable un sábado por la noche. Le escribí a Sara por el chat y al día siguiente me atendieron a primera hora. Salvadores.",
     author: "Lucía F.",
     location: "El Alto",
     service: "Emergencia dental",
@@ -318,7 +318,7 @@ export const CHATBOT_STRINGS = {
     "Hola, soy Sara 👋 Soy la asistente virtual de Sonrisa Perfecta. Estoy aquí para ayudarte a agendar tu cita. ¿Qué servicio te interesa o en qué puedo ayudarte?",
   mockReply:
     "Perfecto, gracias. Para confirmar tu cita necesito tu nombre completo y un número de teléfono de contacto. ¿Me los puedes proporcionar?",
-  errorReply: `En este momento no puedo procesar tu solicitud. Por favor escríbenos al WhatsApp ${CONTACT.whatsapp} o llama al ${CONTACT.phone}.`,
+  errorReply: "Por el momento no puedo procesar tu solicitud. Por favor intenta nuevamente en unos minutos.",
   headerLabel: "Sara — Asistente virtual",
   inputPlaceholder: "Escribe tu mensaje...",
   sendLabel: "Enviar",

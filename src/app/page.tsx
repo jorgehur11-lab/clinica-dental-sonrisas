@@ -115,44 +115,41 @@ export default function Home() {
             </motion.div>
           </div>
 
-          {/* Franja inferior de contacto */}
+          {/* Franja inferior Sara */}
           <div className="bg-dental-text px-8 py-5 flex items-center justify-between">
-            <div>
-              <p className="text-[10px] tracking-[0.2em] uppercase text-dental-muted mb-1">
-                Emergencias
-              </p>
-              <a
-                href={`tel:${CONTACT.phoneTel}`}
-                className="font-display text-xl font-light text-dental-bg hover:text-dental-accent transition-colors duration-400"
-              >
-                {CONTACT.phone}
-              </a>
+            <div className="flex items-center gap-3">
+              <div className="w-2 h-2 rounded-full bg-dental-accent animate-pulse" />
+              <div>
+                <p className="text-[10px] tracking-[0.2em] uppercase text-dental-muted mb-0.5">
+                  Sara · Asistente virtual
+                </p>
+                <p className="text-sm font-light text-dental-bg">
+                  Agenda tu cita ahora
+                </p>
+              </div>
             </div>
-            <a
-              href={CONTACT.whatsappLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-xs tracking-[0.2em] uppercase text-dental-muted border border-dental-muted px-4 py-2 hover:border-dental-accent hover:text-dental-accent transition-all duration-400"
+            <button
+              onClick={() => window.dispatchEvent(new Event("sara:open"))}
+              className="text-xs tracking-[0.2em] uppercase text-dental-accent border border-dental-accent px-4 py-2 hover:bg-dental-accent hover:text-dental-text transition-all duration-400"
             >
-              WhatsApp →
-            </a>
+              Chatear →
+            </button>
           </div>
         </motion.div>
       </section>
 
-      {/* ── BARRA DE CONTACTO RÁPIDO (mobile) ── */}
+      {/* ── BARRA SARA (mobile) ── */}
       <div className="md:hidden bg-dental-text px-6 py-4 flex items-center justify-between">
-        <a href={`tel:${CONTACT.phoneTel}`} className="font-display text-lg font-light text-dental-bg">
-          {CONTACT.phone}
-        </a>
-        <a
-          href={CONTACT.whatsappLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-xs tracking-widest uppercase text-dental-muted border border-dental-muted px-3 py-1.5"
+        <div className="flex items-center gap-2.5">
+          <div className="w-1.5 h-1.5 rounded-full bg-dental-accent animate-pulse" />
+          <p className="text-sm font-light text-dental-bg">Sara disponible ahora</p>
+        </div>
+        <button
+          onClick={() => window.dispatchEvent(new Event("sara:open"))}
+          className="text-xs tracking-widest uppercase text-dental-accent border border-dental-accent px-3 py-1.5"
         >
-          WhatsApp
-        </a>
+          Chatear
+        </button>
       </div>
 
       {/* ── VALORES — 3 pilares ── */}
@@ -371,14 +368,12 @@ export default function Home() {
             >
               {COPY.heroCtaFinal}
             </Link>
-            <a
-              href={CONTACT.whatsappLink}
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              onClick={() => window.dispatchEvent(new Event("sara:open"))}
               className="inline-block border border-dental-bg text-dental-bg text-sm font-light tracking-[0.2em] uppercase px-8 py-4 hover:bg-dental-bg hover:text-dental-accent transition-all duration-400 text-center"
             >
-              WhatsApp
-            </a>
+              Chatear con Sara
+            </button>
           </motion.div>
         </div>
 
